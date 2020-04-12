@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'Sen', sans-serif;
+    font-size: 5rem;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+
+    &--2 {
+        width: 100%;
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+}

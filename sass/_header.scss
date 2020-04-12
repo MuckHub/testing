@@ -1,0 +1,118 @@
+.header {
+    width: 100%;
+    height: 55rem;
+    background-color: orangered;
+
+    &__inner {
+        height: 13rem;
+        display: flex;        
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icons {
+        fill: pink;
+        display: flex;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+
+    &__icon--item {
+        width: 2rem;
+        height: 2rem;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-weight: 800;
+        color: pink;
+        margin-left: 3rem;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            color: rgb(223, 219, 223);
+        }
+    }
+
+    &__nav {
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    &__link {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: pink;
+        text-decoration: none;
+        transition: all .3s;
+        border: solid 1px orangered;
+        padding: .6rem;
+
+        &:not(:last-child) {
+            margin-right: 0rem;
+        }
+        
+
+        &:hover {
+            border: solid 1px;
+            padding: .6rem;
+        }
+    }
+
+}
+
+.content {
+    width: 70%;
+
+    margin: 0 auto;
+    margin-top: 3rem;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    color: pink;
+
+    &__main {
+        margin: 0 auto;
+        width: max-content;
+        display: block;
+        font-size: 5rem;
+    }
+
+    &__sub {
+        margin: 0 auto;
+        margin-top: 2rem;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        width: 70%;
+        text-align: center;
+    }
+
+
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    padding: 1.5rem 4rem;
+    border-radius: 5rem;
+    border: solid 3px pink;
+    font-size: 2rem;
+    color: pink;
+    background-color: orangered;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: pink;
+        color: #000000;
+    }
+
+}
